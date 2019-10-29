@@ -1,15 +1,79 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: black;
-    color: white;
-  }
-  
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f3f9ff;
+  color: #6f6e6e;
+  text-rendering: optimizeLegibility;
+}
+
+.container-fluid.static {
+  border-bottom: solid 1px #64b5e44a;
+}
+
+span.logo {
+  font-size: 1.3rem;
+  padding: 1em;
+  font-weight: 800;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+span.loc {
+  color: rgb(99, 167, 170);
+}
+
+.heading {
+  text-align: center;
+  margin: 10px;
+}
+
+.heading h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+}
+
+#list {
+  padding: 10px;
+}
+
+.spot {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+  background-color: #0732A2;
+}
+
+.venue_name {
+  margin: 5px;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 2px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.venue_address {
+  margin: 5px;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.3rem;
+  color: #fffefe;
+}
+
+.credit {
+  max-width: 200px;
+  margin: 10px;
+}
+
+.credit img {
+  width: 100%;
+}

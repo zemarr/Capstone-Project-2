@@ -20,7 +20,7 @@ window.addEventListener("load", () => {
         lat +
         "," +
         long +
-        "&radius=30000";
+        "&radius=50000";
 
       fetch(api)
         .then(response => {
@@ -28,13 +28,14 @@ window.addEventListener("load", () => {
         })
         .then(data => {
           console.log(data);
-          data.response.venues.map(function(venue) {
+          data.response.venues.map(function (venue) {
             console.log(venue);
             const address = venue.location.formattedAddress.join(", ");
-            const locationHTML = `<h2 class='venue_name'>${venue.name}</h2>
-             <p class='venue_address'>${address}</p> 
-             <div class='venue_image'></div>`;
-            $("#list").append(locationHTML);
+            console.log("The address is", address)
+            const locationHTML = `<div class='spot'><div class='venue_image'></div><div class='venue_name'><h2>${venue.name}</h2></div>
+             <div class='venue_address'><p><b>Location:</b> ${address}</p></div> 
+             </div>`;
+            $('#list').append(locationHTML);
           });
         });
     });

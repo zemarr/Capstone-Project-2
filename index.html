@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="container">
-      <div id="list"></div>
-    </div>
 
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
-      crossorigin="anonymous"
-    ></script>
-    <script src="app.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>LocFinder</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Titillium+Web:400,600,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+</head>
+
+<body>
+  <div class="container-fluid static">
+    <div class="navbar">
+      <span class="logo"><a href="index.html"><span class="loc">Loc</span>Finder</a></span>
+    </div>
+  </div>
+  <div id="container">
+    <!-- <div class="heading">
+      <h1>A location-Based App</h1>
+    </div> -->
+    <div id="list"></div>
+    <div class="credit">
+      <img
+        src="https://res.cloudinary.com/cdacs/image/upload/v1572133418/Foursquare/Powered_By_Foursquare_PNG_powered-by-foursquare-blue_a1ovx3.png"
+        alt="Powered by Foursquare&reg;">
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
 </html>
