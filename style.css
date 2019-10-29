@@ -57,15 +57,19 @@ span.loc {
   border-radius: 2px;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 500;
-  font-size: 1.2rem;
   color: #ffffff;
+}
+
+.venue_name h2 {
+  font-size: 1.3rem;
+  font-weight: 800;
 }
 
 .venue_address {
   margin: 5px;
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: #fffefe;
 }
 
