@@ -14,6 +14,10 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+span.logo a {
+  text-decoration: none;
+}
+
 .container-fluid.static {
   border-bottom: solid 1px #64b5e44a;
 }
@@ -46,8 +50,7 @@ span.loc {
 .spot {
   padding: 10px;
   margin: 5px 0;
-  border-radius: 4px;
-  background-color: #0732A2;
+  border-bottom: solid 1px;
 }
 
 .venue_name {
@@ -56,8 +59,6 @@ span.loc {
   padding: 10px 0;
   border-radius: 2px;
   font-family: 'Titillium Web', sans-serif;
-  font-weight: 500;
-  color: #ffffff;
 }
 
 .venue_name h2 {
@@ -70,7 +71,6 @@ span.loc {
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.1rem;
-  color: #fffefe;
 }
 
 .credit {
